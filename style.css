@@ -6,23 +6,23 @@ body {
     font-family: Lato, sans-serif;
 }
 
-.intro-img {
+.intro-img__header {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.intro-img img {
+.intro-img__header img {
     width: 100%;
 }
 
-.intro-img .link-info {
+.intro-img__header .link-info {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-    .intro-img {
+    .intro-img__header {
         text-align: center;
     }
 }
@@ -167,7 +167,7 @@ button.delete img:hover {
 
 /* Completed */
 
-#completed-tasks label {
+.completed-tasks label {
     text-decoration: line-through color #888;
 }
 
